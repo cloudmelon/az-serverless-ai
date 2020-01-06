@@ -5,8 +5,8 @@ module.exports = async function (context, myQueueItem) {
     const CognitiveServicesCredentials = require("@azure/ms-rest-js");
     const TextAnalyticsAPIClient = require("@azure/cognitiveservices-textanalytics");
     
-    const subscription_key = '20fe8f4cc20243a494c8ada2de44e1b8';
-    const endpoint = `https://msmelon-textanalytics.cognitiveservices.azure.com/`;
+    const subscription_key = 'your cog services sub id';
+    const endpoint = `you cog endpoint`;
 
     const creds = new CognitiveServicesCredentials.ApiKeyCredentials({ inHeader: { 'Ocp-Apim-Subscription-Key': subscription_key } });
     const textAnalyticsClient = new TextAnalyticsAPIClient.TextAnalyticsClient(creds, endpoint);
