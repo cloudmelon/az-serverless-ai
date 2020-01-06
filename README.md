@@ -5,7 +5,8 @@ This repostitory recap all useful serverless AI demos.
 
 ## Azure Cognitive Services useful references : 
 
-- AI: https://aka.ms/aks/previewfeatures
+- Azure Cognitive Services documentation: https://docs.microsoft.com/en-us/azure/cognitive-services/
+- Azure AI on Microsoft Learn : https://docs.microsoft.com/en-us/learn/browse/?roles=ai-engineer
 
 
 
