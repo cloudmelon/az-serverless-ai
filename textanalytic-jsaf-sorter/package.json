@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "@azure/cognitiveservices-textanalytics": "^4.0.0",
-    "@azure/ms-rest-js": "^2.0.4"
+    "@azure/ms-rest-js": "^2.6.6"
   }
 }
